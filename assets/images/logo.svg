@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="copaGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="copaTurf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="#08101a" stroke="url(#copaGold)" stroke-width="2.5"/>
+  <circle cx="50" cy="50" r="42" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1" stroke-dasharray="3,3"/>
+  <!-- Trophy / Cup Crest -->
+  <path d="M35 30 L65 30 L60 52 C58 60 54 65 50 66 C46 65 42 60 40 52 Z" fill="url(#copaTurf)" stroke="#ffffff" stroke-width="1.5"/>
+  <path d="M35 34 C27 34 26 44 36 46" fill="none" stroke="url(#copaGold)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M65 34 C73 34 74 44 64 46" fill="none" stroke="url(#copaGold)" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Base Pedestal -->
+  <path d="M46 66 L54 66 L55 74 L45 74 Z" fill="url(#copaGold)"/>
+  <rect x="40" y="74" width="20" height="4" rx="2" fill="#ffffff"/>
+  <!-- Stars -->
+  <polygon points="50,18 52,23 57,23 53,26 55,31 50,28 45,31 47,26 43,23 48,23" fill="url(#copaGold)"/>
+</svg>
